@@ -1,0 +1,29 @@
+.category-item {
+    width: 32%;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.category-image {
+    width: 100%;
+    border-radius: 3px;
+    height: 200px;
+}
+
+.category-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #141433;
+    margin-top: 8px;
+}
+
+.category-desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #706f6f;
+    margin-top: 5px;
+    line-height: 1.5;
+}

@@ -1,0 +1,8 @@
+GET http://localhost:5000/categories/
+
+###
+
+GET http://localhost:5000/doctors/Dentist/
+Content-Type: application/json
+
+###
