@@ -18,7 +18,7 @@ const DoctorDetails = () => {
     
     useEffect(() => {
         const getDoctorDetails = async () => {
-            const response = await fetch(`http://localhost:5000/doctors/${id}1/`);
+            const response = await fetch(`https://care-jar-backend.onrender.com/doctors/${id}/`);
             if(response.ok === true) {
                 const data = await response.json();
                 const formattedData = data.map(eachItem => ({

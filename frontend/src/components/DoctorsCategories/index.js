@@ -16,7 +16,7 @@ const DoctorsCategories = () => {
     
     useEffect(() => {
         const getCategories = async () => {
-            const response = await fetch('http://localhost:5000/categories/');
+            const response = await fetch('https://care-jar-backend.onrender.com/categories/');
             if(response.ok === true) {
                 const data = await response.json();
                 const formattedData = data.map(eachItem => ({
